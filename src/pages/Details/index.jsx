@@ -1,5 +1,5 @@
 import { Container, Links, Content } from "./styles";
-import { Button } from "../../components/Button/button";
+import { Button } from "../../components/Button";
 import { ButtonText } from "../../components/ButtonText";
 import { Header } from "../../components/Header";
 import { Section } from "../../components/Section";
