@@ -3,9 +3,14 @@ import { Input } from "../../components/Input";
 import { Button } from "../../components/Button";
 import { FiMail, FiLock } from "react-icons/fi";
 import { Link } from "react-router-dom";
+import { useContext } from "react";
 
+import { MyContext } from "../../MyContext"
 
 export function SignIn() {
+    const data = useContext(MyContext);
+
+    console.log("meu contexto =>", data)
     return (
         <Container>
             <Form>
